@@ -23,6 +23,8 @@ var p_delivery=[3,4 ]
 
 var name=["kevika","gayathri","tinky","pinky"]
 
+var empid=[101,102,103,104,105]
+
 
 console.log(p_name);
 console.log(typeof(p_name));
@@ -53,4 +55,7 @@ console.log(typeof(p_delivery ));
 
 console.log(name);
 console.log(typeof(name));
+
+console.log(empid);
+console.log(typeof(empid));
 
