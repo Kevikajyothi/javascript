@@ -1,61 +1,110 @@
-var p_name="Nike"
-var avail="N"
+var m_name1="samsung galaxy";
+var m_model="F14 5G"
+var m_colour="black";
+var storage="128gb";
+var rating=4.3;
+var price=20000;
 
-var discount1=true
-var discount2=false
+var m_name2="redmi";
+var m_model="Note8 pro"
+var m_colour="blue";
+var storage="150gb";
+var rating=4.5;
+var price=25000;
 
-var p_views= 350
+var m_name3="oppo";
+var m_model="Oppo A17"
+var m_colour="sky blue";
+var storage="180gb";
+var rating =[4.4,4.5,4.6]
+var price=26000;console
 
-var rating=3.9;
-
-let specialization={
-    fitness:"slim",
-    size:"xl",
-    colour:"red"
-
-}
-
-var size=[40,42,44,46]
-
-var colour=["blue","white","black","red"]
-
-var p_delivery=[3,4 ]
-
-var name=["kevika","gayathri","tinky","pinky"]
-
-var empid=[101,102,103,104,105]
+var m_name4="iphone";
+var m_model="Iphone14 plus"
+var m_colour="cloud white";
+var storage="250GB";
+var rating=5.0;
+var price=100000;console
 
 
-console.log(p_name);
-console.log(typeof(p_name));
+console.log(m_name1);
+console.log(typeof(m_name1));
 
-console.log(discount1);
-console.log(typeof(discount1));
+console.log(m_model);
+console.log(typeof(m_model));
 
-console.log(discount2);
-console.log(typeof(discount2));
+console.log(m_colour);
+console.log(typeof(m_colour));
+
+console.log(storage);
+console.log(typeof(storage));
 
 console.log(rating);
 console.log(typeof(rating));
 
-console.log(p_views);
-console.log(typeof(p_views));
+console.log(price);
+console.log(typeof(price));
 
-console.log(specialization);
-console.log(typeof(specialization));
+console.log(m_name2);
+console.log(typeof(m_name2));
 
-console.log(size);
-console.log(typeof(size));
+console.log(m_model);
+console.log(typeof(m_model));
 
-console.log(colour);
-console.log(typeof(colour));
 
-console.log(p_delivery );
-console.log(typeof(p_delivery ));
+console.log(m_colour);
+console.log(typeof(m_colour));
 
-console.log(name);
-console.log(typeof(name));
+console.log(storage);
+console.log(typeof(storage));
 
-console.log(empid);
-console.log(typeof(empid));
+console.log(rating);
+console.log(typeof(rating));
+
+console.log(price);
+console.log(typeof(price));
+
+console.log(m_name3);
+console.log(typeof(m_name3));
+
+console.log(m_model);
+console.log(typeof(m_model));
+
+
+console.log(m_colour);
+console.log(typeof(m_colour));
+
+console.log(storage);
+console.log(typeof(storage));
+
+console.log(rating);
+console.log(typeof(rating));
+
+console.log(price);
+console.log(typeof(price));
+
+console.log(m_name4);
+console.log(typeof(m_name4));
+
+console.log(m_model);
+console.log(typeof(m_model));
+
+console.log(m_colour);
+console.log(typeof(m_colour));
+
+console.log(storage);
+console.log(typeof(storage));
+
+console.log(rating);
+console.log(typeof(rating));
+
+console.log(price);
+console.log(typeof(price));
+
+
+
+
+
+
+
 
