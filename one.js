@@ -1,105 +1,134 @@
-var m_name1="samsung galaxy";
-var m_model="F14 5G"
-var m_colour="black";
-var storage="128gb";
-var rating=4.3;
-var price=20000;
+let sal=45000;
+if (sal > 40000){
+console.log("Eligible for marriage");
+}
+else{
+   console.log("Not eligible for marriage");
+}
 
-var m_name2="redmi";
-var m_model="Note8 pro"
-var m_colour="blue";
-var storage="150gb";
-var rating=4.5;
-var price=25000;
+let num=43;
+if(num % 2==0){
+   console.log("Even");
+}
+else{
+   console.log("Odd");
+} 
+let salery=50000
+salery > 45000 ? console.log("Eligible for marriage"): console.log("Not eligible for marriage")
 
-var m_name3="oppo";
-var m_model="Oppo A17"
-var m_colour="sky blue";
-var storage="180gb";
-var rating =[4.4,4.5,4.6]
-var price=26000;console
-
-var m_name4="iphone";
-var m_model="Iphone14 plus"
-var m_colour="cloud white";
-var storage="250GB";
-var rating=5.0;
-var price=100000;console
+let number=7;
+if(number % 7==0){
+console.log(7,"number is divisible by 7");
+}
+else{
+   console.log("number is not divisible by 7");
+}
 
 
-console.log(m_name1);
-console.log(typeof(m_name1));
-
-console.log(m_model);
-console.log(typeof(m_model));
-
-console.log(m_colour);
-console.log(typeof(m_colour));
-
-console.log(storage);
-console.log(typeof(storage));
-
-console.log(rating);
-console.log(typeof(rating));
-
-console.log(price);
-console.log(typeof(price));
-
-console.log(m_name2);
-console.log(typeof(m_name2));
-
-console.log(m_model);
-console.log(typeof(m_model));
+let numb=3;
+if(numb % 3==0){
+   console.log(3,"numb is multiple by 3");
+}
+else{
+   console.log("numb is not multiple by 3");
+}
 
 
-console.log(m_colour);
-console.log(typeof(m_colour));
+// write a program to print to check the given number is positive or not
 
-console.log(storage);
-console.log(typeof(storage));
+let no=45;
+if(no >0){
+   console.log(45," is positive");
+}
+else{
+   console.log("no is negative");
+}
 
-console.log(rating);
-console.log(typeof(rating));
+//write a number to check if a number is 3 digit numbers or not?
 
-console.log(price);
-console.log(typeof(price));
+let integer=999;
+if(integer > 99){
+   console.log("integer is three digit");
+}
+else{
+   console.log("integer is two digit");
+}
 
-console.log(m_name3);
-console.log(typeof(m_name3));
+//write a program to print even or odd for a given number?
 
-console.log(m_model);
-console.log(typeof(m_model));
+let a=10;
+if(a%2==0){
+   console.log(a,"a is a even number");
+}
+else{
+console.log(a,"a is a odd number");
+}
 
+//write a program to print the greatest number in two numbers?
 
-console.log(m_colour);
-console.log(typeof(m_colour));
+let A=25;
+let B=30;
+if(A>B){
+console.log(A," is greater than ",B);
+}
+else{
+   console.log(B," is greater than ",A);
+}
 
-console.log(storage);
-console.log(typeof(storage));
+//write a program to print the greatest number in two numbers?
 
-console.log(rating);
-console.log(typeof(rating));
+let c=200;
+let d=100;
+if(c>d || d>c){
+   console.log( d,"is less than" ,c);
+}
+else{
+   console.log( c," is less than ",d);
+}
 
-console.log(price);
-console.log(typeof(price));
+//write a program to print the greatest number in given three numbers?
 
-console.log(m_name4);
-console.log(typeof(m_name4));
+let x=10;
+let y=20;
+let z=30;
+if(x > y && x > z){
+   console.log(x,"greatest number x");
+}
+if(y > z && y > x){
+   console.log(y,"greatest number y");
+}
+if(z > y && z > x){
+   console.log(z,"greatest number z");
+}
 
-console.log(m_model);
-console.log(typeof(m_model));
+//write a program to print the least number in given three numbers?
 
-console.log(m_colour);
-console.log(typeof(m_colour));
+let X=500;
+let Y=200;
+let Z=300;
 
-console.log(storage);
-console.log(typeof(storage));
+if(X < Y && X < Z){
+   console.log(X,"the least number");
+}
+if(Y < Z && Y < X){
+   console.log(Y,"the least number");
+}
+if (Z < X && Z < Y){
+   console.log(Z,"the least number");
+}
 
-console.log(rating);
-console.log(typeof(rating));
+// write a program to print the given 3 number in ascending order
 
-console.log(price);
-console.log(typeof(price));
+// let H =5;
+// let I =4;
+// let J =6;
+// let k =3;
+// if(K<I<H<J){
+//    console.log(K,"ascending order");
+// }
+// else{
+//    console.log(J,"descending order");
+// }
 
 
 
