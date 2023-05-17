@@ -64,5 +64,40 @@ for(let i=1;i<=a;i++){
 console.log(fact);
 
 
+let arr=[1,2,3,4,5,6,7,8,10]
+arr.reverse()
+console.log(arr);
+
+
+let number=20
+let n1=0,n2=1,nextterm;
+console.log('fibonacci series');
+console.log(n1);
+console.log(n2);
+nextterm=n1+n2;
+while(nextterm<=number){
+    console.log(nextterm);
+    n1=n2;
+    n2=nextterm;
+    nextterm=n1+n2;
+}
+
+let n=153
+let f=0
+let d=n
+while(d>0){
+    c=d%10
+    f=f+c**3
+    d=Math.floor(d/10)
+
+}
+if(n==f){
+    console.log(true);
+}
+else{
+    console.log(false);
+}
+
+
 
 
