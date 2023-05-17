@@ -119,16 +119,35 @@ if (Z < X && Z < Y){
 
 // write a program to print the given 3 number in ascending order
 
-// let H =5;
-// let I =4;
-// let J =6;
-// let k =3;
-// if(K<I<H<J){
-//    console.log(K,"ascending order");
-// }
-// else{
-//    console.log(J,"descending order");
-// }
+let h =25;
+let i = 45;
+let j = 35;
+let k = 12;
+let l = 9;
+
+let gayathri = [h,i,j,k,l]
+
+gayathri.sort(function(h,i){
+   return  h-i
+})
+
+console.log(gayathri);
+
+// write a program to print the given 6 numbers in descending order?
+
+let p=76;
+let q=78;
+let r=09;
+let s=43;
+let t=65;
+let u=45;
+
+let kevika=[p,q,r,s,t,u]
+
+kevika.sort(function(p,q){
+   return q-p
+})
+console.log(kevika);
 
 
 
