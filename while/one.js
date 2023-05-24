@@ -35,3 +35,5 @@ while (i<=4){
 for (i=0;i<=4;i++){
 console.log(array[i]);
 }
+
+
