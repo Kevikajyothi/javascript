@@ -13,3 +13,7 @@ let cc_Click=()=>{
 function cc_Focus(){
     document.getElementById('focusid').style.backgroundColor="blue"
 }
+
+function cc_Blur(){
+   document.getElementById('blurid').style.backgroundColor="red"
+}
