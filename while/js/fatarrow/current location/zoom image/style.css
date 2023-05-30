@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 200px;
     background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
-
+    font-style:var();
     
 }
 body{
