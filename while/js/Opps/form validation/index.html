@@ -1,0 +1,42 @@
+<html>
+    <head>
+<title>FORM VALIDATION</title>
+<script type="text/javascript">
+    
+</script>
+    </head>
+    <body>
+        <form action="/cgi-bin/test.cgi"name="myform" onsubmit="return(validate());">
+            <table cellspacing="2" cellpadding="2" border="1">
+                <tr>
+                    <td align="right">Name</td>
+                    <td><input type="text" Name="Name"/></td>
+
+                </tr>
+                <tr>
+                    <td align="right">email</td>
+                    <td><input type="text" Email="Email"/></td>
+                </tr>
+                <tr>
+                    <td align="right">zip code</td>
+                    <td><input type="text"zip code="zip code"/></td>
+                </tr>
+                <tr>
+                    <td align="right">country</td>
+                    <td>
+                        <select name="country">
+                            <option value="-1" selected>[choose yours]</option>
+                            <option value="1">USA</option>
+                            <option value="2">UK</option>
+                            <option value="3">INDIA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align ="right"></td>
+                    <td><input type="submit" value="submit"/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
